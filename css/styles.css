@@ -1,0 +1,78 @@
+* {
+  outline:none;
+  text-decoration:none;
+  border:none;
+}
+body {
+  background-color: #dcd0ff;
+  font-size: 5rem;
+  font-family: Times New Roman;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+div { 
+  margin: 60px auto;
+}
+.btn {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  text-align: center;
+  transition: all .5s ease; 
+}
+
+.circle-button{
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.circle-button:hover{
+  animation: circle-anim 0.3s ease forwards;
+  transition: all 0.4s ease;
+}
+.grow-container{
+  display: inline-block;
+  margin: 1em;
+}
+
+.to-google:hover{
+  background: #ff4d00;
+}
+
+.to-twitter:hover{
+  background: #1DA1F3;
+}
+
+.to-facebook:hover{
+  background: #3B5998;
+}
+
+.to-youtube:hover{
+  background: #ff0000;
+}
+
+.to-skype:hover{
+  background: #42aaff;
+}
+
+@keyframes circle-anim{
+  0% {
+    
+  }
+  
+  90%{
+    padding: 0.35em;
+    margin: -0.35em; 
+  }
+  
+  100%{
+    padding: 0.25em;
+    margin: -0.25em; 
+  }
+}
